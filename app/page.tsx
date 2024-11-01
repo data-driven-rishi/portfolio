@@ -69,7 +69,7 @@ export default function Home() {
                   Passionate about leveraging data and machine learning to drive innovative research and solutions.
                 </p>
                 <Button asChild size="lg" className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white">
-                  <a href="/path-to-your-resume.pdf" download>Download Resume</a>
+                  <a href="/rishi.pdf" download>Download Resume</a>
                 </Button>
               </div>
               
@@ -78,7 +78,7 @@ export default function Home() {
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-600 animate-spin-slow"></div>
                   <div className="absolute inset-2 rounded-full bg-background flex items-center justify-center overflow-hidden">
                     <img 
-                      src="https://media.licdn.com/dms/image/v2/D4E03AQF4AJMYql5tHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1694881372381?e=1735776000&v=beta&t=WbkoXmH-o8x8QTFeW1n1bx1eBda85o0tpm9etwrofqo" 
+                      src="https://avatars.githubusercontent.com/u/144190032?s=400&u=6bf35d64dc177ba6d3413c69322070abaf6f89c0&v=4" 
                       alt="Rishi" 
                       className="w-full h-full object-cover"
                     />

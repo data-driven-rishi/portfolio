@@ -6,24 +6,30 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
 import Link from 'next/link'
-import { motion } from 'framer-motion'
 import { ExternalLink, Send, Calendar, User } from 'lucide-react'
 import {BLOGS} from '@/data/blogsData';
 import {RESEARCH} from "@/data/researchData";
 
 export default function Home() {
   const [animatedText, setAnimatedText] = useState('Data Analyst')
+  const [isVisible, setIsVisible] = useState(true);
   const roles = ['Data Analyst', 'Machine Learning Enthusiast', 'Researcher']
   
   useEffect(() => {
     const interval = setInterval(() => {
-      setAnimatedText(prev => {
-        const currentIndex = roles.indexOf(prev)
-        return roles[(currentIndex + 1) % roles.length]
-      })
-    }, 3000)
-    return () => clearInterval(interval)
-  }, [])
+      setIsVisible(false); // Start the fade-out animation
+
+      setTimeout(() => {
+        setAnimatedText(prev => {
+          const currentIndex = roles.indexOf(prev);
+          return roles[(currentIndex + 1) % roles.length];
+        });
+        setIsVisible(true); // Start the fade-in animation after changing text
+      }, 500); // Wait for fade-out to complete
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -51,16 +57,13 @@ export default function Home() {
                   I am Rishi
                 </h1>
                 <div className="text-2xl mb-6 h-[70px]">
-                  <motion.div
-                    className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600"
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -20 }}
-                    transition={{ duration: 0.5 }}
-                    key={animatedText}
-                  >
-                    {animatedText}
-                  </motion.div>
+                <div
+      className={`font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 transition duration-500 transform ${
+        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'
+      }`}
+    >
+      {animatedText}
+    </div>
                 </div>
                 <p className="text-xl mb-8 text-muted-foreground">
                   Passionate about leveraging data and machine learning to drive innovative research and solutions.

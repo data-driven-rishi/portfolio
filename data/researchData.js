@@ -1,20 +1,11 @@
 export const RESEARCH= [
     { 
-      title: "Machine Learning in Healthcare", 
-      description: "Exploring the applications of ML in predictive diagnostics and personalized treatment plans.",
-      image: "https://media.licdn.com/dms/image/v2/D4E16AQH5SONW8YxbIw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1694881293694?e=1735776000&v=beta&t=f1SfEueCH7nK-fpyuOLDkyL8eo4imGUHBd-dLFtZtLQ",
-      authors: ["Rishi Kumar", "Jane Doe"],
-      link: "https://google.com", 
-      date: "2023-10-15",
-      journal: "Journal of AI in Medicine"
-    },
-    { 
-        title: "Machine Learning in Healthcare", 
-        description: "Exploring the applications of ML in predictive diagnostics and personalized treatment plans.",
-        image: "https://media.licdn.com/dms/image/v2/D4E16AQH5SONW8YxbIw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1694881293694?e=1735776000&v=beta&t=f1SfEueCH7nK-fpyuOLDkyL8eo4imGUHBd-dLFtZtLQ",
-        authors: ["Rishi Kumar", "Jane Doe"],
+        title: "Contributors of negative attitudes towards sleep data in biometric-tracking ring users: A qualitative study", 
+        description: "This is my poster presentation on my research at American Public Health Association Annual Conference in Minneapolis, Minnesota",
+        image: "portfolio-project/data/Pictures/IMG_7571.jpg",
+        authors:["Hrishikesh Lamichhane1, Lydia Trainor, PhD2, Barbara Araoz, MS1, Marissa McElrone, PhD, RDN, CPH3 and Chelsea Allison, Ph.D., RDN4 (1)Springfield College, Springfield, MA, (2)Rider University, Lawrenceville, NJ, (3)University of Tennessee at Chattanooga, Chattanooga, TN, (4)Longmeadow, MA"],
         link: "https://google.com", 
-        date: "2023-10-15",
-        journal: "Journal of AI in Medicine"
+        date: "2024-10-27",
+        journal: "American Public Health Journal"
       },
   ];

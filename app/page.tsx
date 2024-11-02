@@ -133,7 +133,7 @@ export default function Home() {
                         <CardTitle className="text-2xl font-semibold">{research.title}</CardTitle>
                       </CardHeader>
                       <CardContent>
-                        <CardDescription className="text-base mb-4">{research.description}</CardDescription>
+                        <CardDescription className="text-base mb-4" dangerouslySetInnerHTML={{__html: research.description}}></CardDescription>
                         <div className="flex items-center text-sm text-muted-foreground mb-2">
                           <User className="mr-2 h-4 w-4" />
                           {research.authors.join(", ")}

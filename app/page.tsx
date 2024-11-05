@@ -39,7 +39,7 @@ export default function Home() {
             RISHI
           </Link>
           <nav className="flex gap-6">
-            {['About', 'Blogs', 'Research', 'Contact'].map((item) => (
+            {['About', 'Projects', 'Research', 'Contact'].map((item) => (
               <Button key={item} variant="ghost" asChild className="text-base font-medium">
                 <Link href={`#${item.toLowerCase()}`}>{item}</Link>
               </Button>
@@ -89,9 +89,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="blogs" className="py-20 px-4 md:px-6 bg-background">
+        <section id="projects" className="py-20 px-4 md:px-6 bg-background"> 
           <div className="container max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-10 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">My Blogs</h2>
+            <h2 className="text-4xl font-bold mb-10 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">My Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {BLOGS?.map((blog, index) => (
                 <Link  key={index} href={blog.link}>

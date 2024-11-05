@@ -133,12 +133,18 @@ export default function Home() {
                         <CardTitle className="text-2xl font-semibold">{research.title}</CardTitle>
                       </CardHeader>
                       <CardContent>
-                        <CardDescription className="text-base mb-4" dangerouslySetInnerHTML={{__html: research.description}}></CardDescription>
-                        <div className="flex items-center text-sm text-muted-foreground mb-2">
-                          <User className="mr-2 h-4 w-4" />
-                          {research.authors.join(", ")}
+                        <CardDescription className="text-base mb-4">{research.description}</CardDescription>
+                        <div className="flex max-w-full items-start text-sm text-muted-foreground mb-2">
+                          <User className="mr-2 mt-0.5 h-5 w-5" />
+                          <div>
+                          {research.authors.map((author, index)=> {
+                              return <span className='w-max' key={index} dangerouslySetInnerHTML={{__html: author}} /> 
+                          }
+                          )}
+                          </div>
+                        
                         </div>
-                        <div className="flex items-center text-sm text-muted-foreground mb-2">
+                        <div className="flex items-center text-sm text-muted-foreground my-4">
                           <Calendar className="mr-2 h-4 w-4" />
                           {new Date(research.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
                         </div>

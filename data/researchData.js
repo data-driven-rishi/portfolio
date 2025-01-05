@@ -11,7 +11,7 @@ export const RESEARCH= [
         description: "This is my poster presentation on my research at American Public Health Association Annual Conference in Minneapolis, Minnesota",
         image: Research1.src,
         authors:["<strong>Hrishikesh Lamichhane<sup>1</sup></strong>", space , "Lydia Trainor PhD<sup>2</sup>", space, "Barbara Araoz MS<sup>1</sup>", space, "Marissa McElrone, PhD, RDN, CPH<sup>3</sup> and Chelsea Allison, Ph.D.RDN<sup>4</sup>", brek, brek, "1.&nbsp; Springfield College, Springfield, MA", "<br>2.&nbsp; Rider University, Lawrenceville, NJ", space, brek, "3.&nbsp; University of Tennessee at Chattanooga, Chattanooga, TN", brek, "4.&nbsp; Longmeadow, MA"],
-        link: "https://google.com", 
+        link: "https://docs.google.com/document/d/1Vzg6dpn9DtPH3uxxE1wZ1v84NFWot_xrFFbZ9Hbdr5w/edit?tab=t.0", 
         date: "2024-10-27",
         journal: "American Public Health Journal"
       },

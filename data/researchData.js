@@ -20,7 +20,7 @@ export const RESEARCH= [
         description: "I worked on Dr. Allison's research project as her Research Assistant and I am working on the manuscript that is under preperation as a secondary author",
         image: Research2.src,
         authors:["Chelsea Allison, Ph.D., RDN<sup>1</sup>, Lydia Trainor, PhD<sup>2</sup>, Barbara Araoz, MS<sup>1</sup>, Hrishikesh Lamichhane1, Marissa McElrone, PhD, RDN, CPH3 and Christine Selby, PhD, CEDS, CMPC-E1"],
-        link: "https://google.com", 
+        link: "https://docs.google.com/document/d/194H8IpDjSsBmJ4sclYXo3fXdZpD9R3kpnz1BL3NhlvA/edit?tab=t.0", 
         date: "2024-10-27",
         journal: "American Public Health Journal"
       },

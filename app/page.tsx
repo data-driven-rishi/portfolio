@@ -69,7 +69,7 @@ export default function Home() {
                   Passionate about Health and Healthcare, Public health, Interdesciplinary Research in Public health and leveraging real life implication through Data Analysis and Data Visualization
                 </p>
                 <Button asChild size="lg" className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white">
-                  <a href="/rishi.pdf" download>Download Resume</a>
+                  <a href="/LamichhaneCV.pdf" download>Download Resume</a>
                 </Button>
               </div>
               

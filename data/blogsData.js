@@ -21,5 +21,13 @@ export const BLOGS = [
         image: "https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/473080657_1264245741510101_7227805920532969803_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jl6QyHyRodEQ7kNvgGG2GJl&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=ASCGuJX37zWkUmGj26tzWZm&oh=00_AYBDsa6Ix2IUvgbo14GoTOBWNBp-bnsPAbK2KV_KvXmmaA&oe=6788B30F",
         link: "https://drive.google.com/file/d/1a7EbboJhmp2NI1u7pAZax4HJqbe6sT50/view?usp=sharing", 
     },
+
+    {
+        title: "Springfield College Ultimate Frisbee Victory", 
+        description: "I value team work and physical exercise. During my time in Springfield College, I played Ultimate Frisbee. This is the moment when our team won a match over Assumption University, Norwich University ans Western New England University teams", 
+        image: "https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/469812514_1242691256998883_5729309214649908658_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=5iEDwXCHzLUQ7kNvgGaX-dz&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=AAiuA7BdE1v2_9SYXAI489L&oh=00_AYCIiD6jHm_DEnkWo0gaIWEQPMQdTIQH1RiCZlvvnKevGQ&oe=678895CD",
+        link: "https://drive.google.com/file/d/1a7EbboJhmp2NI1u7pAZax4HJqbe6sT50/view?usp=sharing", 
+    },
+
     
 ];

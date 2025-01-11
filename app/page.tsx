@@ -54,7 +54,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center justify-between gap-12">
               <div className="flex-1 text-left">
                 <h1 className="text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-                  I am Rishi
+                  Data Driven Rishi
                 </h1>
                 <div className="text-2xl mb-6 h-[70px]">
                 <div

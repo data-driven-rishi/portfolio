@@ -24,7 +24,7 @@ export const BLOGS = [
 
     {
         title: "Springfield College Ultimate Frisbee Victory", 
-        description: "I value team work and physical exercise. During my time in Springfield College, I played Ultimate Frisbee. This is the moment when our team won a match over Assumption University, Norwich University ans Western New England University teams", 
+        description: "I value team work and physical exercise. During my time in Springfield College, I played Ultimate Frisbee. This is the moment when our team won a match over Assumption University, Norwich University and Western New England University teams", 
         image: "https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/469812514_1242691256998883_5729309214649908658_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=5iEDwXCHzLUQ7kNvgGaX-dz&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=AAiuA7BdE1v2_9SYXAI489L&oh=00_AYCIiD6jHm_DEnkWo0gaIWEQPMQdTIQH1RiCZlvvnKevGQ&oe=678895CD",
         link: "https://drive.google.com/file/d/1a7EbboJhmp2NI1u7pAZax4HJqbe6sT50/view?usp=sharing", 
     },

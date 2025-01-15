@@ -29,5 +29,13 @@ export const BLOGS = [
         link: "https://drive.google.com/file/d/1a7EbboJhmp2NI1u7pAZax4HJqbe6sT50/view?usp=sharing", 
     },
 
+    {
+        title: "Cardiovascular Risk factor Experiential Education Project", 
+        description: "In my junior year, I went to Nepal to educate school going adolescents about negative effects of smoking through Experiential Learning", 
+        image: "https://media.licdn.com/dms/image/v2/D4E16AQH5SONW8YxbIw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1694881293694?e=1742428800&v=beta&t=2xjbUyMy3D-dI0f6wUNba8VLcjP97SStdMK0tobQrko",
+        link: "https://www.linkedin.com/in/rishi-lamichhane-6427ba182/", 
+    },
+
+
     
 ];

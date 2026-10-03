@@ -35,8 +35,8 @@ export default function Home() {
     <div className="min-h-screen bg-background flex flex-col">
       <header className="py-4 px-4 md:px-6 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b border-border/40">
         <div className="container max-w-6xl mx-auto flex items-center justify-between">
-          <Link href="/" className="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-            RISHI
+          <Link href="/" className="font-serif text-2xl font-medium tracking-tight text-foreground">
+            Rishi Lamichhane
           </Link>
           <nav className="flex gap-6">
             {['About', 'Projects', 'Research', 'Contact'].map((item) => (
@@ -53,12 +53,12 @@ export default function Home() {
           <div className="container max-w-6xl mx-auto">
             <div className="flex flex-col md:flex-row items-center justify-between gap-12">
               <div className="flex-1 text-left">
-                <h1 className="text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-                  Data Driven Rishi
+                <h1 className="font-serif text-5xl md:text-6xl font-medium tracking-tight mb-4 text-foreground">
+                  Rishi Lamichhane
                 </h1>
                 <div className="text-2xl mb-6 h-[70px]">
                 <div
-      className={`font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 transition duration-500 transform ${
+      className={`font-medium text-signal transition duration-500 transform ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'
       }`}
     >
@@ -68,14 +68,14 @@ export default function Home() {
                 <p className="text-xl mb-8 text-muted-foreground">
                   Passionate about Health and Healthcare, Public health, Interdesciplinary Research in Public health and leveraging real life implication through Data Analysis and Data Visualization
                 </p>
-                <Button asChild size="lg" className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white">
+                <Button asChild size="lg">
                   <a href="/LamichhaneCV.pdf" download>Download Resume</a>
                 </Button>
               </div>
               
               <div className="flex-1 flex justify-center items-center">
                 <div className="relative w-80 h-80">
-                  <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-600 animate-spin-slow"></div>
+                  <div className="absolute inset-0 rounded-full border border-border"></div>
                   <div className="absolute inset-2 rounded-full bg-background flex items-center justify-center overflow-hidden">
                     <img 
                       src="https://avatars.githubusercontent.com/u/144190032?s=400&u=6bf35d64dc177ba6d3413c69322070abaf6f89c0&v=4" 
@@ -91,7 +91,7 @@ export default function Home() {
 
         <section id="projects" className="py-20 px-4 md:px-6 bg-background"> 
           <div className="container max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-10 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">My Projects</h2>
+            <h2 className="font-serif text-4xl font-medium tracking-tight mb-10 text-center text-foreground">My Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {BLOGS?.map((blog, index) => (
                 <Link  key={index} href={blog.link}>
@@ -119,7 +119,7 @@ export default function Home() {
 
         <section id="research" className="py-20 px-4 md:px-6 bg-muted/50">
           <div className="container max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-10 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Research</h2>
+            <h2 className="font-serif text-4xl font-medium tracking-tight mb-10 text-center text-foreground">Research</h2>
             <div className="grid gap-8">
               {RESEARCH?.map((research, index) => (
                 <Link  key={index} href={research.link}>
@@ -163,13 +163,13 @@ export default function Home() {
 
         <section id="contact" className="py-20 px-4 md:px-6 bg-gradient-to-t from-background to-muted">
           <div className="container max-w-2xl mx-auto">
-            <h2 className="text-4xl font-bold mb-10 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Contact Me</h2>
+            <h2 className="font-serif text-4xl font-medium tracking-tight mb-10 text-center text-foreground">Contact Me</h2>
             <Card className="backdrop-blur-sm bg-background/60">
               <CardContent className="p-6">
                 <form  action="https://formspree.io/f/meoqalqd" className="space-y-6" method='POST'>
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
-                    <Input id="name" placeholder="Your Name" required className="bg-background/50" />
+                    <Input id="name" name="name" placeholder="Your Name" required className="bg-background/50" />
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
@@ -179,7 +179,7 @@ export default function Home() {
                     <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
                     <Textarea id="message" name='message' placeholder="Your message here..." required className="bg-background/50" />
                   </div>
-                  <Button type="submit" className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white">
+                  <Button type="submit" className="w-full">
                      Send Message
                     <Send className="ml-2 h-4 w-4" />
                   </Button>
@@ -193,8 +193,8 @@ export default function Home() {
 
       <footer className="py-6 px-4 md:px-6 bg-background border-t border-border/40">
         <div className="container max-w-6xl mx-auto flex justify-between items-center">
-          <Link href="/" className="text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-            RISHI
+          <Link href="/" className="font-serif text-xl font-medium text-foreground">
+            Rishi Lamichhane
           </Link>
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} All rights reserved.

@@ -11,9 +11,9 @@ import {BLOGS} from '@/data/blogsData';
 import {RESEARCH} from "@/data/researchData";
 
 export default function Home() {
-  const [animatedText, setAnimatedText] = useState('Data Analyst')
+  const [animatedText, setAnimatedText] = useState('Health economics')
   const [isVisible, setIsVisible] = useState(true);
-  const roles = ['Data Analyst', 'Machine Learning Enthusiast', 'Researcher']
+  const roles = ['Health economics', 'Real-world evidence', 'Outcomes research', 'Healthcare data science']
   
   useEffect(() => {
     const interval = setInterval(() => {
@@ -66,7 +66,7 @@ export default function Home() {
     </div>
                 </div>
                 <p className="text-xl mb-8 text-muted-foreground">
-                  Passionate about Health and Healthcare, Public health, Interdesciplinary Research in Public health and leveraging real life implication through Data Analysis and Data Visualization
+                  MPH candidate in Health Economics and Policy Analysis at Brown University, with a background in data science and public health. I use data and economic methods to assess the value of health interventions.
                 </p>
                 <Button asChild size="lg">
                   <a href="/LamichhaneCV.pdf" download>Download Resume</a>

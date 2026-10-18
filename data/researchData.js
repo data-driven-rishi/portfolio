@@ -1,27 +1,21 @@
-import Research1 from "@/app/Pictures/IMG_7571.jpg";
-import Research2 from "@/app/Pictures/IMG_7572.jpg";
 
-
-const space = ",&nbsp;";
-const brek = "<br>";
-
-export const RESEARCH= [
-    { 
-        title: "Contributors of negative attitudes towards sleep data in biometric-tracking ring users: A qualitative study", 
-        description: "This is my poster presentation on my research at American Public Health Association Annual Conference in Minneapolis, Minnesota",
-        image: Research1.src,
-        authors:["<strong>Hrishikesh Lamichhane<sup>1</sup></strong>", space , "Lydia Trainor PhD<sup>2</sup>", space, "Barbara Araoz MS<sup>1</sup>", space, "Marissa McElrone, PhD, RDN, CPH<sup>3</sup> and Chelsea Allison, Ph.D.RDN<sup>4</sup>", brek, brek, "1.&nbsp; Springfield College, Springfield, MA", "<br>2.&nbsp; Rider University, Lawrenceville, NJ", space, brek, "3.&nbsp; University of Tennessee at Chattanooga, Chattanooga, TN", brek, "4.&nbsp; Longmeadow, MA"],
-        link: "https://docs.google.com/document/d/1Vzg6dpn9DtPH3uxxE1wZ1v84NFWot_xrFFbZ9Hbdr5w/edit?tab=t.0", 
-        date: "2024-10-27",
-        journal: "American Public Health Journal"
-      },
-      { 
-        title: "Employee definitions of wellness at a higher education institution with a health-focused mission", 
-        description: "I worked on Dr. Allison's research project as her Research Assistant and I am working on the manuscript that is under preperation as a secondary author",
-        image: Research2.src,
-        authors:["Chelsea Allison, Ph.D., RDN<sup>1</sup>, Lydia Trainor, PhD<sup>2</sup>, Barbara Araoz, MS<sup>1</sup>, Hrishikesh Lamichhane1, Marissa McElrone, PhD, RDN, CPH3 and Christine Selby, PhD, CEDS, CMPC-E1"],
-        link: "https://docs.google.com/document/d/194H8IpDjSsBmJ4sclYXo3fXdZpD9R3kpnz1BL3NhlvA/edit?tab=t.0", 
-        date: "2024-10-27",
-        journal: "American Public Health Journal"
-      },
-  ];
+export const RESEARCH = [
+  {
+    title: "Contributors of negative attitudes towards sleep data in biometric-tracking ring users: A qualitative study",
+    description: "First-author poster on why biometric ring users come to view their sleep data negatively.",
+    authors: ["<strong>H. Lamichhane</strong>, L. Trainor, B. Araoz, M. McElrone, C. Allison"],
+    journal: "APHA 2024 Annual Meeting & Expo, Minneapolis · Poster",
+    year: "2024",
+    image: "/research/apha-poster.jpeg",
+    link: "/Research/Hrishikesh_ResearchAbstract.pdf",
+  },
+  {
+    title: "Employee definitions of wellness at a higher education institution with a health-focused mission",
+    description: "Co-author on Dr. Chelsea Allison's study, from my research assistant role at the Wellness Institute.",
+    authors: ["C. Allison, L. Trainor, B. Araoz, <strong>H. Lamichhane</strong>, M. McElrone, C. Selby"],
+    journal: "APHA 2024 Annual Meeting & Expo, Minneapolis · Slide Presentation",
+    year: "2024",
+    image: "/research/wellness-study.png",
+    link: "Research/Dr.Allison_Manuscript.pdf",
+  },
+];

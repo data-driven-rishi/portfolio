@@ -6,7 +6,7 @@ export const RESEARCH = [
     authors: ["<strong>H. Lamichhane</strong>, L. Trainor, B. Araoz, M. McElrone, C. Allison"],
     journal: "APHA 2024 Annual Meeting & Expo, Minneapolis · Poster",
     year: "2024",
-    image: "/research/apha-poster.jpeg",
+    image: "/Research/apha-poster.jpeg",
     link: "/Research/Hrishikesh_ResearchAbstract.pdf",
   },
   {
@@ -15,7 +15,7 @@ export const RESEARCH = [
     authors: ["C. Allison, L. Trainor, B. Araoz, <strong>H. Lamichhane</strong>, M. McElrone, C. Selby"],
     journal: "APHA 2024 Annual Meeting & Expo, Minneapolis · Slide Presentation",
     year: "2024",
-    image: "/research/wellness-study.png",
-    link: "Research/Dr.Allison_Manuscript.pdf",
+    image: "/Research/wellness-study.png",
+    link: "/Research/Dr.Allison_abstract.pdf",
   },
 ];

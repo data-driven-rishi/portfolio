@@ -102,7 +102,13 @@ export default function Home() {
                   <CardContent className="p-6">
                     <CardTitle className="mb-2">{blog.title}</CardTitle>
                     <CardDescription className="mb-4">{blog.description}</CardDescription>
-                    <div className="flex justify-between">
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      {blog.tools?.map((tool) => (
+                        <span key={tool} className="text-xs font-medium px-2.5 py-1 rounded-full bg-signal/10 text-signal">
+                          {tool}
+                        </span>
+                      ))}
+                    </div>                    <div className="flex justify-between">
                       
                       <Button variant="outline" size="sm">
                         <ExternalLink href={blog.link} className="mr-2 h-4 w-4" />

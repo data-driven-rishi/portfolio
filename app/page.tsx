@@ -32,7 +32,7 @@ function Timeline({ items }: { items: Entry[] }) {
   return (
     <ol className="relative border-l border-border ml-3">
       {items.map((item, i) => (
-                        <li key={i} className="mb-12 ml-8">
+                                <li key={i} className="relative mb-12 ml-8">
           <span className="absolute -left-[39px] top-1.5 h-3.5 w-3.5 rounded-full border-2 border-background bg-signal" />
           <p className="text-sm font-medium text-signal mb-1">{item.dates}{item.type ? ` · ${item.type}` : ''}</p>
           <h3 className="font-serif text-xl font-medium text-foreground">{item.role}</h3>

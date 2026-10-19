@@ -301,7 +301,7 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="mt-3 inline-block text-sm font-medium text-signal hover:underline underline-offset-4"
                       >
-                        {research.linkLabel || "View PDF"} ↗
+                                                {(research as { linkLabel?: string }).linkLabel || "View PDF"} ↗
                       </a>
                     )}
                   </div>

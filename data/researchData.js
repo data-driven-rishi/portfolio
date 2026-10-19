@@ -8,6 +8,7 @@ export const RESEARCH = [
     year: "2024",
     image: "/Research/apha-poster.jpeg",
     link: "/Research/Hrishikesh_ResearchAbstract.pdf",
+        linkLabel: "Abstract (PDF)",
   },
   {
     title: "Employee definitions of wellness at a higher education institution with a health-focused mission",
@@ -17,5 +18,6 @@ export const RESEARCH = [
     year: "2024",
     image: "/Research/wellness-study.png",
     link: "/Research/Dr.Allison_abstract.pdf",
+        linkLabel: "Abstract (PDF)",
   },
 ];

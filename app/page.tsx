@@ -125,7 +125,7 @@ export default function Home() {
                   <div className="absolute inset-0 rounded-full border border-border"></div>
                   <div className="absolute inset-2 rounded-full bg-background flex items-center justify-center overflow-hidden">
                     <img
-                      src="https://avatars.githubusercontent.com/u/144190032?s=400&u=6bf35d64dc177ba6d3413c69322070abaf6f89c0&v=4"
+                         src="/Beyond/headshot.jpg"
                       alt="Rishi Lamichhane"
                       className="w-full h-full object-cover"
                     />

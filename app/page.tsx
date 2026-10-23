@@ -126,6 +126,7 @@ export default function Home() {
                   <div className="absolute inset-2 rounded-full bg-background flex items-center justify-center overflow-hidden">
                     <img
                          src="/Beyond/headshot.jpg"
+                                               style={{ objectPosition: "50% 15%" }}
                       alt="Rishi Lamichhane"
                       className="w-full h-full object-cover"
                     />
